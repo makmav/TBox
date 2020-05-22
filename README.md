@@ -1,2 +1,2 @@
-# ubiquitous-octo-meme
+# TBox
 A terminal REPL component package
