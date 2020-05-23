@@ -1,0 +1,38 @@
+{
+  "name": "tbox",
+  "version": "1.0.0",
+  "description": "a pretty terminal kit",
+  "main": "index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "compile": "tsc -b ./src/tsconfig.base.json",
+    "test": "jest",
+    "tes:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmav09/TBox.git"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "mark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markmav09/TBox/issues"
+  },
+  "homepage": "https://github.com/markmav09/TBox#readme",
+  "dependencies": {
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "tslint": "^6.1.2",
+    "tslint-etc": "^1.10.1",
+    "tslint-no-toplevel-property-access": "0.0.2"
+  }
+}

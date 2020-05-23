@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "incremental": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "diagnostics": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "stripInternal": false,
+    "lib": [
+      "esnext"
+    ],
+    "target": "esnext",
+    "baseUrl": "."
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
